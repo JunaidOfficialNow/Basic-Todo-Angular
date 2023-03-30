@@ -4,7 +4,7 @@
   height: 60vh;
   width: 60vw;
   align-items: center;
-  background-color: rgb(206, 214, 214);
+  background-color: #DAE2B6;
 }
 
 
@@ -17,7 +17,7 @@ ul {
 }
 
 li , li button {
-  background-color: azure;
+  background-color: #FFFBE9;
   width: 90%;
   border: 1px solid;
   height: 40px;
@@ -42,11 +42,12 @@ li button {
 
 li:hover li:first-child {
   cursor: pointer;
-  background-color: green;
+  
 }
 
 
 li:hover  {
   cursor: pointer;
-  background-color: green;
+  border-color: green;
+  background-color: palegreen;
 }
