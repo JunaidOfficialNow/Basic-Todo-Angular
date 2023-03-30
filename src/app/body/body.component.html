@@ -1,9 +1,7 @@
 <div class="body">
   <ul>
-    <li>This is a todo</li>
-    <li>This is a todo</li>
-    <li>This is a todo</li>
-    <li>This is a todo</li>
-    <li>This is a todo</li>
+    <ng-container *ngFor="let todo of todosProps">
+      <li (click)="completeTodo(todo.id)" (dblclick)="deleteTodo(todo.id)" [ngClass]="{'crossed-out': todo.isCompleted }">{{todo.todo}}</li>
+    </ng-container>
   </ul>
 </div>

@@ -1,4 +1,4 @@
 <section class="todo">
-  <app-header></app-header>
-  <app-body></app-body>
+  <app-header (OnNewTodo)="addTodo($event)"></app-header>
+  <app-body [todos]="todos"></app-body>
 </section>

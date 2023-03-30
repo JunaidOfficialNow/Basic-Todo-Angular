@@ -35,6 +35,11 @@ li button {
   justify-content: center;
 }
 
+.crossed-out {
+  text-decoration: line-through;
+  background-color: lightgreen;
+}
+
 li:hover li:first-child {
   cursor: pointer;
   background-color: green;
