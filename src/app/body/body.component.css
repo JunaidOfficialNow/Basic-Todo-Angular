@@ -1,0 +1,47 @@
+.body {
+  display: flex;
+  flex-direction: column;
+  height: 60vh;
+  width: 60vw;
+  align-items: center;
+  background-color: rgb(206, 214, 214);
+}
+
+
+ul {
+  list-style: none;
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+li , li button {
+  background-color: azure;
+  width: 90%;
+  border: 1px solid;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+li button {
+  background-color: azure;
+  width: 90%;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+li:hover li:first-child {
+  cursor: pointer;
+  background-color: green;
+}
+
+
+li:hover  {
+  cursor: pointer;
+  background-color: green;
+}
